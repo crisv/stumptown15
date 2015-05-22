@@ -18,3 +18,5 @@ Wendy:
  - 5 Menu items
  - Media queries
  - Embed an audio player
+
+ Just checking to make sure I'm connected at home.
