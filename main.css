@@ -70,21 +70,12 @@ http://designmodo.com/create-css3-pricing-tables*/
     position: relative;
     width: 210px;
     padding: 25px 0;
- 
     font-family: 'Handlee', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: #b6b07c;
  
-    background: #f9f8f1;
-    background: -moz-linear-gradient(top,  #f9f8f1 0%, #f4f2e2 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f8f1), color-stop(100%,#f4f2e2));
-    background: -webkit-linear-gradient(top,  #f9f8f1 0%,#f4f2e2 100%);
-    background: -o-linear-gradient(top,  #f9f8f1 0%,#f4f2e2 100%);
-    background: -ms-linear-gradient(top,  #f9f8f1 0%,#f4f2e2 100%);
-    background: linear-gradient(to bottom,  #f9f8f1 0%,#f4f2e2 100%);
-}
 
 .pricing-table thead .price p {
     display: table;
@@ -93,19 +84,22 @@ http://designmodo.com/create-css3-pricing-tables*/
     line-height: 60px;
 }
 
-.pricing-table thead .price p span {
-    font-size: 0.5em;
-    display: table-cell;
-    vertical-align: middle;
-}
 
-.pricing-table tbody tr:first-child td:before {
+/*.pricing-table tbody tr:first-child td:before {
     position: absolute;
     display: block;
     content: '';
     width: 100%;
-    height: 5px;
-    top: -25px;
+    height: .25em;
+    top: 0;
     left: 0;
-    background: Brown;
+    background: Brown;*/
+}
+
+.descriptions {
+	font-family: 'Handlee', sans-serif; 
+	font-size: 1em;
+	text-align: left;
+
+	
 }
