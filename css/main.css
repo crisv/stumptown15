@@ -41,7 +41,7 @@ h1 {
 	height: 120px;
 }
 
-.pricing-table {min-width: 1100px;}  /*number based on 210px+10paddingR&L*/
+.pricing-table {min-width: 100%;}  /*number based on 210px+10paddingR&L*/
 
 .pricing-table td {
 	position: relative;
@@ -104,7 +104,7 @@ http://designmodo.com/create-css3-pricing-tables*/
 
 .pricing-table thead .price td {
     position: relative;
-    width: 210px;
+    width: 25%;
     padding: 25px 0;
     font-family: 'Handlee', sans-serif;
     font-weight: bold;
