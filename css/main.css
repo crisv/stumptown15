@@ -37,6 +37,9 @@ h1 {
 	text-align: center;
 }
 
+.clear-content {
+	height: 120px;
+}
 
 .pricing-table {min-width: 1100px;}  /*number based on 210px+10paddingR&L*/
 
