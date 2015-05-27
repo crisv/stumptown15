@@ -1,7 +1,35 @@
-div {
+body div {
 	display: flex;
 	flex-flow: row wrap;
+	/*flex-direction: column; */
 }
+
+body div header, nav, main {
+	background: #CCC: 
+	border-radius: 7px; 
+	margin: 5px;
+	padding: 20px;
+}
+
+div header {
+	order: 1; 
+	height: 100px;
+	flex: 0 1 100%:
+}
+div nav {
+	order: 2; 
+	height: 100px;
+	flex: 0 1 100%:
+}
+
+div nav ul {
+	dispaly: inline-block;
+	list-style: none;
+}
+ div main {
+ 	order: 3;
+ 	height: 400px;
+ }
 
 h1 {
 	font-family: 'Patrick Hand', sans-serif;
