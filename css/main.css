@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-<div>{
- display: flex;
- 
-
-}
-
-=======
 div {
 	display: flex;
 	flex-flow: row wrap;
 }
 
-
->>>>>>> master
 h1 {
 	font-family: 'Patrick Hand', sans-serif;
 	font-size: 3em;
