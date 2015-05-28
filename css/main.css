@@ -4,31 +4,31 @@ body div {
 	/*flex-direction: column; */
 }
 
-body div header, nav, main {
+/*body div header, nav, main {
 	background: #CCC: 
 	border-radius: 7px; 
 	margin: 5px;
 	padding: 20px;
 }
-
-div header {
+*/
+/*div header {
 	order: 1; 
 	height: 100px;
 	flex: 0 1 100%:
-}
-div nav {
+}*/
+/*div nav {
 	order: 2; 
 	height: 100px;
 	flex: 0 1 100%:
-}
+}*/
 
-div nav ul {
+/*div nav ul {
 	dispaly: inline-block;
-	list-style: none;
+	list-style: none;*/
 }
- div main {
+ /*div main {
  	order: 3;
- 	height: 400px;
+ 	height: 400px;*/
  }
 
 h1 {
@@ -65,19 +65,22 @@ h2 {
 }
 
 
-.massageOptions {
-	display: inline-block;
-}
-
 
 /*********************************
 ALL STYLING FOR MASSAGE TABLE BOXES
 *********************************/
-table {
+.menu {
   border-collapse: collapse;
   max-width: 75%;
   /*width: 100%;*/
   font-family: 'arial unicode', sans-serif;
+}
+
+.massageOptions {
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	max-width: 100%;
 }
 
 td {  /*this is the padding between the massage option boxes*/
