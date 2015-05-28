@@ -113,6 +113,10 @@ ul {
   list-style: none;
 }
 
+h4 {
+	font-family: 'Rock Salt', sans-serif;
+	text-align: left;
+}
 
 /*********************************
 STYLING FOR ABOUT
@@ -169,10 +173,13 @@ p {
 	max-width: 100%;
 	max-height: auto;
 	margin: 5%
-	
 
 }
 
+h4 {
+	font-size: .75em;
+	text-align: center;
+}
 
 
 
