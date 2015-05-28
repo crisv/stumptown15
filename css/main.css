@@ -38,35 +38,22 @@ h1 {
 	text-align: center;
 }
 
-.clear-content {
-	height: 120px;
+
+
+
+.music_stream {
+	min-width: 15%;
+	max-width: 25%;
+	padding: 2px;
+	margin: 2px;
+	background-color: linen;
 }
 
-.pricing-table {min-width: 100%;}  /*number based on 210px+10paddingR&L*/
 
-.pricing-table td {
-	position: relative;
-	margin: 0 5px;
-	vertical-align: text-top;
-}
-
-.pricing-table thead .plan td {
-	width: 210px;
-	height: 42px;
-	padding: 15px 0;
-	text-align: center;
-
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-}
 
 /*********************************
-STYLING FOR MASSAGE MENU
+STYLING FOR WEBSITE H2s
 *********************************/
-/* concepts drawn from 
-http://designmodo.com/create-css3-pricing-tables*/
-
 h2 {
   font-family: 'helvetica', sans-serif;
   font-size: 2.5em;
@@ -77,13 +64,15 @@ h2 {
   background-color: linen;
 }
 
-.music_stream {
-	max-width: 15%;
-	padding: 2px;
-	margin: 2px;
-	background-color: linen;
+
+.massageOptions {
+	display: inline-block;
 }
 
+
+/*********************************
+ALL STYLING FOR MASSAGE TABLE BOXES
+*********************************/
 table {
   border-collapse: collapse;
   max-width: 75%;
@@ -91,11 +80,7 @@ table {
   font-family: 'arial unicode', sans-serif;
 }
 
-h3 {
-	font-size: 1.5em;
-}
-
-td {
+td {  /*this is the padding between the massage option boxes*/
   border: 1em solid white;
 }
 .green {
@@ -120,4 +105,5 @@ td {
 
 ul {
   list-style: none;
+
 }
