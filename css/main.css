@@ -32,7 +32,8 @@ div nav ul {
  }
 
 h1 {
-	font-family: 'Patrick Hand', sans-serif;
+	font-family: 'helvetica', sans-serif;
+	background-color: linen;
 	font-size: 3em;
 	text-align: center;
 }
@@ -74,6 +75,13 @@ h2 {
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
   background-color: linen;
+}
+
+.music_stream {
+	max-width: 15%;
+	padding: 2px;
+	margin: 2px;
+	background-color: linen;
 }
 
 table {
