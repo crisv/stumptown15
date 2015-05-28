@@ -105,5 +105,17 @@ td {  /*this is the padding between the massage option boxes*/
 
 ul {
   list-style: none;
+}
 
+
+/*********************************
+STYLING FOR ABOUT
+*********************************/
+
+
+.Bio {
+	font-family: 'helvetica', sans-serif;
+	float: left;
+	max-width: 45%;
+	padding: 2.5%;
 }
