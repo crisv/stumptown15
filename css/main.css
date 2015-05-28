@@ -76,12 +76,15 @@ ALL STYLING FOR MASSAGE TABLE BOXES
   font-family: 'arial unicode', sans-serif;
 }
 
-.massageOptions {
+.massageOptions li {
 	font-family: 'Rock Salt', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
 	max-width: 100%;
-}
+	list-style: none;
+	display: inline-block;
+	margin: 0 1%;
+}	
 
 td {  /*this is the padding between the massage option boxes*/
   border: 1em solid white;
@@ -122,3 +125,24 @@ STYLING FOR ABOUT
 	max-width: 45%;
 	padding: 2.5%;
 }
+
+
+/*********************************
+MEDIA QUERIES
+*********************************/
+@media (max-width:600px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
