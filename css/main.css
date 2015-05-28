@@ -104,7 +104,7 @@ td {  /*this is the padding between the massage option boxes*/
 }
 
 .swedish {
-  align: left;
+  text-align: left;
   padding: 0;
   margin: 0;
 }
@@ -132,11 +132,46 @@ MEDIA QUERIES
 *********************************/
 @media (max-width:600px) {
 
+h2 {
+	margin: 0;
+	align: left;
+}
+table {
+	max-width: 100%;
+	margin: 2.5%;
+}
 
+table img  {
+	max-width: 100%;
+	margin: 0;
+}
 
+td {
+	border: none;
+}
 
+table li {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
 
+p {
+	font-size: .85em;
+}
 
+.Bio {
+	max-width: 100%;
+}
+
+.bio img {
+	float: left;
+	max-width: 100%;
+	max-height: auto;
+	margin: 5%
+	
+
+}
 
 
 
