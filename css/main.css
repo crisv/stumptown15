@@ -1,8 +1,16 @@
+
+
+h1 {
+	box-shadow: 60px -16px light green;
+}
+
 body div {
 	display: flex;
 	flex-flow: row wrap;
 	/*flex-direction: column; */
 }
+
+
 
 /*body div header, nav, main {
 	background: #CCC: 
@@ -55,6 +63,7 @@ nav{
 
 li {
 	display: inline-block;
+	box-shadow: inset 0 0 1em linen, 0 0 1em green;
 }
 }
 
@@ -165,14 +174,14 @@ STYLING FOR ABOUT
 /****************************
 STYLING FOR MAPS
 *****************************/
-/****
-p {
+
+#mapparagraph {
 
 	font-family: 'helvetica', sans-serif;
-	float: left;
+	float: right;
 	max-width: 45%;
 	padding: 2.5%;
-}******/
+}
 
 
 
@@ -226,8 +235,13 @@ h4 {
 	text-align: center;
 }
 
-#resources{
-	display: inline;
+#resource {
+
+	text-align: center;
+	display: inline block;
+	padding-top: 5px
+	list-style: none;
+
 }
 
 }
