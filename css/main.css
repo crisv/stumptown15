@@ -1,4 +1,13 @@
+#title {
+	font-family: 'helvetica', sans-serif;
+	background-color: linen;
+	font-size: 2.5em;
+	text-align: left;
+	border-bottom: 2px solid gray;
+  	border-top: 1px solid gray;
+  	background-color: linen;
 
+}
 
 h1 {
 	box-shadow: 60px -16px light green;
@@ -50,8 +59,7 @@ h1 {
 /*********************************************
 STYLING FOR THE NAV BAR
 ********************************************/
-nav{
-
+nav li a{
 	font-family: 'Rock Salt', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
@@ -59,6 +67,8 @@ nav{
 	list-style: none;
 	display: inline-block;
 	margin: 0 1%;
+	text-decoration: none;
+
 
 }
 
