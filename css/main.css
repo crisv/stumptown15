@@ -4,6 +4,7 @@ h1 {
 	box-shadow: 60px -16px light green;
 }
 
+
 body div {
 	display: flex;
 	flex-flow: row wrap;
@@ -61,11 +62,17 @@ nav{
 
 }
 
-li {
-	display: inline-block;
+#nav-mobile {
+	list-style: none;
 	box-shadow: inset 0 0 1em linen, 0 0 1em green;
 }
+#nav-mobile li {
+	display: inline-block;
+	margin: 5px
+	
+	
 }
+
 
 td {  /*this is the padding between the massage option boxes*/
   border: 1em solid white;
